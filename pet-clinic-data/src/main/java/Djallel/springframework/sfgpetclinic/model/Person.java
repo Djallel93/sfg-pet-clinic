@@ -1,6 +1,6 @@
-package com.example.sfgpetclinic.model;
+package Djallel.springframework.sfgpetclinic.model;
 
-public class Personne {
+public class Person {
 
     private String firstName;
     private String lastName;

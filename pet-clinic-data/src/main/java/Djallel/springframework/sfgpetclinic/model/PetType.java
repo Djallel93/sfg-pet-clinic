@@ -1,4 +1,4 @@
-package com.example.sfgpetclinic.model;
+package Djallel.springframework.sfgpetclinic.model;
 
 public class PetType {
 
