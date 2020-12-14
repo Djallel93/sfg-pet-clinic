@@ -1,11 +1,11 @@
 package Djallel.springframework.sfgpetclinic.servicies.map;
 
 import Djallel.springframework.sfgpetclinic.model.Pet;
-import Djallel.springframework.sfgpetclinic.servicies.CrudService;
+import Djallel.springframework.sfgpetclinic.servicies.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
