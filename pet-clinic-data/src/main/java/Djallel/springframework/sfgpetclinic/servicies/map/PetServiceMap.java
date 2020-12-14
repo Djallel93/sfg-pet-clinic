@@ -2,9 +2,11 @@ package Djallel.springframework.sfgpetclinic.servicies.map;
 
 import Djallel.springframework.sfgpetclinic.model.Pet;
 import Djallel.springframework.sfgpetclinic.servicies.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
