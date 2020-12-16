@@ -29,7 +29,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <!--configuration>
-                    <mainClass>Djallel.springframework</mainClass>
+                    <mainClass>djallel.springframework</mainClass>
                 </configuration-->
             </plugin>
             <plugin>

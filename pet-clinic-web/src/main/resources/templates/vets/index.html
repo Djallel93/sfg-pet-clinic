@@ -15,7 +15,7 @@
     </tr>
     </thead>
     <tbody>
-    <!--/*@thymesVar id="vet" type="Djallel.springframework.sfgpetclinic.model.Vet"*/-->
+    <!--/*@thymesVar id="vet" type="djallel.springframework.sfgpetclinic.model.Vet"*/-->
     <tr th:each="vet : ${vets}">
         <td th:text="${vet?.id}">1</td>
         <td th:text="${vet?.firstName}">James</td>

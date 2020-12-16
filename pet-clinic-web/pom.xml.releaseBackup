@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Djallel.sprinframework</groupId>
+    <groupId>djallel.sprinframework</groupId>
     <artifactId>pet-clinic-web</artifactId>
 
     <properties>
@@ -20,7 +20,7 @@
     <dependencies>
         <dependency>
             <artifactId>pet-clinic-data</artifactId>
-            <groupId>Djallel.Springframework</groupId>
+            <groupId>djallel.Springframework</groupId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
