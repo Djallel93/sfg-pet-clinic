@@ -2,11 +2,13 @@ package djallel.springframework.sfgpetclinic.servicies.map;
 
 import djallel.springframework.sfgpetclinic.model.Visit;
 import djallel.springframework.sfgpetclinic.servicies.VisitService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class VisitMapService extends AbstractMapService implements VisitService {
 
     @Override
